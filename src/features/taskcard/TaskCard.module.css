@@ -1,0 +1,18 @@
+.container{
+    cursor: pointer;
+    background:#fff;
+    padding: 10px 10px;
+    border-radius:5px;
+    margin: 5px;
+    display:flex;
+    justify-content:space-between;
+    box-shadow: 4px 4px 9px rgba(51, 51, 51, 0.678);
+}
+.container:hover .icon{
+    opacity: 1;
+    transition: all 0.3s ease;
+    color:rgba(51, 51, 51, 0.678)
+}
+.icon{
+    opacity: 0;
+}
